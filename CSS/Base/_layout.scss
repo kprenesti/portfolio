@@ -1,0 +1,68 @@
+* {
+  paddding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $plain;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0 !important;
+}
+
+ul, menu, dir {
+  padding-start: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.padTB40 {
+  padding: 40px 0;
+}
+.padTB20 {
+  padding: 20px 0;
+}
+.padLR40{
+  padding: 40px 0;
+}
+.padLR20 {
+  padding: 0 20px;
+}
+.pad20{
+  padding: 20px;
+}
+.pad40{
+  padding: 40px;
+}
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.floatR {
+  float: right;
+  &:after{
+    content:'';
+    clear: both;
+  }
+}
+.floatL {
+  float: left;
+  &:after{
+    content:'';
+    clear: both;
+  }
+}

@@ -1,0 +1,27 @@
+/*=========================
+        JUMBOTRON
+===========================*/
+.jumbo-wrap {
+  width: 60%;
+  height: auto;
+  padding-top: 7%;
+  margin: 0 auto;
+  .jumbotron{
+  text-align: center;
+    h1{
+      font-family: $funky;
+    }
+    p {
+      font-family: $plain;
+    }
+  }
+}
+//TABLET OR SMALLER
+@media (max-width: $tabs) {
+  .jumbo-wrap {
+    width: 80%;
+  }
+  .jumbotron p {
+    padding: 0 5px;
+  }
+}

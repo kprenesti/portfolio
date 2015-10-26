@@ -1,0 +1,49 @@
+
+
+.navbar.navbar-default.navbar-static-top {
+  background-color: $darkgrey;
+  a {
+    color: white;
+    font-family: $plain;
+    font-weight: bold;
+  }
+  .navbar-brand {
+    font-weight: normal;
+    font-family: $funky;
+  }
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: $darkgrey;
+  color: $turq;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: $turq;
+  color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: $darkgrey;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  background-color: $turq;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: lightgrey;
+    border-bottom: 1px solid lightgrey;
+    line-height: 2em;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: white;
+  }
+}

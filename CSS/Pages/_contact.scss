@@ -1,0 +1,54 @@
+.email-main {
+  text-align: center;
+  color: white;
+  margin: 10px auto;
+  background-color: $turq;
+  font-size: 2em;
+  background-color: $turq;
+  color: white;
+  width: 100%;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: $tabs) {
+  .email-main {
+    display: block;
+    padding: 5px 0;
+    margin: 0;
+  }
+} //end media query tabs
+
+.buttons1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.socButton {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 50px;
+  font-size: 200%;
+}
+
+.linkedIn {
+  background-color: $darkgrey;
+  color: white;
+}
+
+.fcc {
+  background-color: #4A2B0F;
+  background-image: url('../../images/freeCodeCamp-transparent-1200.png') center center no-repeat;
+  background-size: contain;
+
+  img{
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
