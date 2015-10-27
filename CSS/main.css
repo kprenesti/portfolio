@@ -1,251 +1,299 @@
-/* line 1, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 * {
   paddding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* line 7, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 body {
   font-family: "Open Sans", sans-serif; }
 
-/* line 11, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 ul {
   text-decoration: none;
   list-style-type: none;
   list-style-position: inside;
   padding-left: 0 !important; }
 
-/* line 18, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 ul, menu, dir {
   padding-start: 0;
   padding: 0;
   margin: 0; }
 
-/* line 24, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .overflow {
   overflow: hidden; }
 
-/* line 28, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .padTB40 {
   padding: 40px 0; }
 
-/* line 31, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .padTB20 {
   padding: 20px 0; }
 
-/* line 34, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .padLR40 {
   padding: 40px 0; }
 
-/* line 37, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .padLR20 {
   padding: 0 20px; }
 
-/* line 40, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .pad20 {
   padding: 20px; }
 
-/* line 43, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .pad40 {
   padding: 40px; }
 
-/* line 46, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .centered {
   text-align: center;
   margin: 0 auto; }
 
-/* line 51, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .round {
   border-radius: 50%; }
 
-/* line 55, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .floatR {
   float: right; }
-  /* line 57, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
   .floatR:after {
     content: '';
     clear: both; }
 
-/* line 62, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
 .floatL {
   float: left; }
-  /* line 64, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Base/_layout.scss */
   .floatL:after {
     content: '';
     clear: both; }
 
-/* line 3, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
+img-responsive {
+  max-width: 100%; }
+
 .navbar.navbar-default.navbar-static-top {
   background-color: #3D3D3D; }
-  /* line 5, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
   .navbar.navbar-default.navbar-static-top a {
     color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: bold; }
-  /* line 10, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
   .navbar.navbar-default.navbar-static-top .navbar-brand {
     font-weight: normal;
     font-family: "Rock Salt", cursive; }
 
-/* line 16, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   background-color: #3D3D3D;
   color: #6BC5F0; }
 
-/* line 20, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   background-color: #6BC5F0;
   color: white; }
 
-/* line 24, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: white; }
 
-/* line 27, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent;
   color: white; }
 
-/* line 32, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
 .navbar-nav > li > .dropdown-menu {
   background-color: #3D3D3D; }
 
-/* line 36, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
   background-color: #6BC5F0; }
 
 @media (max-width: 767px) {
-  /* line 41, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: lightgrey;
     border-bottom: 1px solid lightgrey;
     line-height: 2em; }
-  /* line 46, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Components/_navbar.scss */
+
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: white; } }
-
 /*
 /
-///////////////  COVER IMAGEs \\\\\\\\\\\\\\\\/
+///////////////  COVER IMAGEs \\\\\\\\\
+/
 */
-/* line 7, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_cover.scss */
 .cover {
   width: 100%;
   height: 100vh;
-  background-size: cover; }
+  background-size: cover;
+  margin: 0;
+  padding: 0; }
 
-/* line 13, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_cover.scss */
 .intro-pic {
   background-image: url("../../images/compwireframe.jpg");
   background-position: center center; }
 
-/* line 18, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_cover.scss */
 .intro-pic.container-fluid {
   padding: 0; }
 
 /*================================
           INTRODUCTION
 =================================*/
-/* line 4, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_intro.scss */
 #person {
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 0; }
+  #person h1 {
+    text-align: center;
+    padding: 40px 0;
+    margin: 0;
+    color: #007BB6;
+    font-weight: bold; }
+  #person p {
+    font-size: 1.5em;
+    padding-right: 20px; }
 
-/* line 8, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_intro.scss */
+#story h1 {
+  color: #007BB6;
+  font-weight: bold; }
+
 .kristapic {
-  max-width: 40vh;
+  max-width: 30vw;
   height: auto;
-  margin-left: 20px; }
+  float: left;
+  padding: 0 20px 0 40px; }
 
-/* line 15, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_intro.scss */
 #past > p {
   font-size: 1.2em;
   line-height: 1.5;
   padding: 5px 40px; }
-
-/* line 20, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_intro.scss */
 #past h2:first-child {
-  margin-bottom: 0; }
-
-/* line 23, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_intro.scss */
+  margin-bottom: 0;
+  margin-top: 0; }
 #past .since {
   margin-left: 40px; }
 
+@media (max-width: 775px) {
+  #person h1 {
+    text-align: center; }
+
+  #past {
+    text-align: left; }
+    #past > h2,
+    #past > .since {
+      text-align: center;
+      margin-left: 0; }
+
+  .kristapic {
+    float: none;
+    max-width: 50%;
+    margin: 0 25%;
+    margin-top: 20px; } }
 /*=========================
         JUMBOTRON
 ===========================*/
-/* line 4, C:/Users/Krista/Documents/Websites/Portfolio/CSS/VendOverrides/_bsJumbotron.scss */
 .jumbo-wrap {
   width: 60%;
   height: auto;
   padding-top: 7%;
   margin: 0 auto; }
-  /* line 9, C:/Users/Krista/Documents/Websites/Portfolio/CSS/VendOverrides/_bsJumbotron.scss */
   .jumbo-wrap .jumbotron {
     text-align: center; }
-    /* line 11, C:/Users/Krista/Documents/Websites/Portfolio/CSS/VendOverrides/_bsJumbotron.scss */
     .jumbo-wrap .jumbotron h1 {
       font-family: "Rock Salt", cursive; }
-    /* line 14, C:/Users/Krista/Documents/Websites/Portfolio/CSS/VendOverrides/_bsJumbotron.scss */
     .jumbo-wrap .jumbotron p {
       font-family: "Open Sans", sans-serif; }
 
 @media (max-width: 775px) {
-  /* line 21, C:/Users/Krista/Documents/Websites/Portfolio/CSS/VendOverrides/_bsJumbotron.scss */
   .jumbo-wrap {
     width: 80%; }
-  /* line 24, C:/Users/Krista/Documents/Websites/Portfolio/CSS/VendOverrides/_bsJumbotron.scss */
+
   .jumbotron p {
     padding: 0 5px; } }
-
-/* line 1, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
 .email-main {
   text-align: center;
   color: white;
   margin: 10px auto;
   background-color: #6BC5F0;
-  font-size: 2em;
+  font-size: 200%;
   background-color: #6BC5F0;
   color: white;
   width: 100%; }
-  /* line 11, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
   .email-main:hover {
-    text-decoration: none; }
+    background-color: #EEEEEE;
+    color: #6BC5F0;
+    font-weight: bold; }
 
-@media (max-width: 775px) {
-  /* line 17, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
-  .email-main {
-    display: block;
-    padding: 5px 0;
-    margin: 0; } }
+.mobile-text {
+  display: none; }
 
-/* line 24, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
 .buttons1 {
   margin: 0 auto;
   text-align: center; }
 
-/* line 29, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
 .socButton {
   display: block;
   width: 100%;
   height: 50px;
-  padding: 5px;
   border-radius: 5px;
   line-height: 50px;
-  font-size: 200%; }
+  font-size: 200%;
+  color: white;
+  background-color: #007BB6; }
+  .socButton:hover {
+    text-decoration: none;
+    background-color: #3D3D3D;
+    color: white; }
 
-/* line 39, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
-.linkedIn {
-  background-color: #3D3D3D;
-  color: white; }
+.backButton {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #007BB6;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.3em; }
+  .backButton:hover {
+    color: #EEEEEE;
+    text-decoration: none; }
 
-/* line 44, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
 .fcc {
-  background-color: #4A2B0F;
   background-image: url("../../images/freeCodeCamp-transparent-1200.png") center center no-repeat;
   background-size: contain; }
-  /* line 49, C:/Users/Krista/Documents/Websites/Portfolio/CSS/Pages/_contact.scss */
   .fcc img {
     width: 100%;
     max-height: 100%; }
+
+@media (max-width: 775px) {
+  #contact {
+    padding: 40px; }
+
+  .socButton {
+    margin: 2px 0; }
+
+  .email-main {
+    display: block;
+    padding: 5px 0;
+    margin: 0 0 3px 0; }
+
+  .mobile-text {
+    display: inherit; }
+
+  .expanded {
+    display: none; } }
+figure {
+  max-width: 100%; }
+  figure img {
+    max-width: 100%; }
+
+.skill {
+  max-height: 50px;
+  display: table-cell;
+  vertical-align: middle; }
+  .skill h3 {
+    max-width: 20%;
+    display: inline-block;
+    float: left;
+    margin-right: 20px; }
+
+.counter {
+  max-width: 80%;
+  overflow: hidden;
+  padding: 3%; }
+  .counter .bead {
+    width: 2em;
+    height: 2em;
+    border: 1px solid #3D3D3D;
+    border-radius: 50%;
+    margin: 2.5px; }
+
+.bead.filled {
+  background-color: #6BC5F0; }
+
+.bead.empty {
+  background-color: #EEEEEE; }
 
 /*# sourceMappingURL=main.css.map */

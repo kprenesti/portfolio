@@ -3,23 +3,20 @@
   color: white;
   margin: 10px auto;
   background-color: $turq;
-  font-size: 2em;
+  font-size: 200%;
   background-color: $turq;
   color: white;
   width: 100%;
-  
   &:hover {
-    text-decoration: none;
+    background-color: $whitegrey;
+    color: $turq;
+    font-weight: bold;
   }
 }
 
-@media (max-width: $tabs) {
-  .email-main {
-    display: block;
-    padding: 5px 0;
-    margin: 0;
-  }
-} //end media query tabs
+.mobile-text {
+  display: none;
+}
 
 .buttons1 {
   margin: 0 auto;
@@ -30,25 +27,63 @@
   display: block;
   width: 100%;
   height: 50px;
-  padding: 5px;
   border-radius: 5px;
   line-height: 50px;
   font-size: 200%;
+  color: white;
+  background-color: $LIBlue;
+  &:hover {
+    text-decoration: none;
+    background-color: $darkgrey;
+    color: white;
+  }
 }
 
-.linkedIn {
-  background-color: $darkgrey;
+.backButton {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: $LIBlue;
   color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  &:hover {
+    color: $whitegrey;
+    text-decoration: none;
+  }
 }
+
 
 .fcc {
-  background-color: #4A2B0F;
   background-image: url('../../images/freeCodeCamp-transparent-1200.png') center center no-repeat;
   background-size: contain;
-
   img{
     width: 100%;
     max-height: 100%;
   }
 }
+
+
+
+@media (max-width: $tabs) {
+  #contact {
+    padding: 40px;
+  }
+  .socButton {
+    margin: 2px 0;
+  }
+  .email-main {
+    display: block;
+    padding: 5px 0;
+    margin: 0 0 3px 0;
+  }
+  .mobile-text {
+    display: inherit;
+  }
+  .expanded {
+    display: none;
+  }
+} //end media query tabs
+
 
