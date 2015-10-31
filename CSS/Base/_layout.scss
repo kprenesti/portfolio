@@ -1,11 +1,17 @@
 * {
-  paddding: 0;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   font-family: $plain;
+  font-size: 1.8em;
 }
 
 ul {
@@ -19,6 +25,19 @@ ul, menu, dir {
   padding-start: 0;
   padding: 0;
   margin: 0;
+}
+
+ul.bullet {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-align: left;
+  li {
+    padding: .5em 0;
+  }
+}
+
+h1 {
+  color: $LIBlue;
 }
 
 .overflow {
@@ -69,4 +88,14 @@ ul, menu, dir {
 
 img-responsive {
   max-width: 100%;
+}
+
+.top {
+  display: block;
+  float: right;
+  margin: 5px 0;
+  &:after {
+    content: '';
+    clear: both;
+  }
 }

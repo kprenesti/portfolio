@@ -7,13 +7,22 @@
   padding-top: 7%;
   margin: 0 auto;
   .jumbotron{
-  text-align: center;
-    h1{
-      font-family: $funky;
-    }
-    p {
-      font-family: $plain;
-    }
+    max-width: 90vw;
+    height: auto;
+    text-align: center;
+      h1{
+        font-family: $funky;
+        color: $darkgrey;
+      }
+      p {
+        font-family: $plain;
+      }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .jumbotron > h1 {
+    font-size: 2.3em;
   }
 }
 //TABLET OR SMALLER
@@ -23,5 +32,15 @@
   }
   .jumbotron p {
     padding: 0 5px;
+  }
+}
+
+@media (max-width 450px) {
+  .jumbo-wrap {
+    max-height: 90vh;
+    overflow: hidden;
+  }
+  .jumbotron > h1 {
+    font-size: 1.8em;
   }
 }
