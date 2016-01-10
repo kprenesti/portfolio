@@ -12,47 +12,43 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="CSS/main.css">
-    
+
   </head>
   <body>
     <div class="intro-pic cover">
       <nav class="navbar navbar-default navbar-static-top">
         <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-            <a class="navbar-brand" href="#">KP</a>
-          </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">KP</a>
+      </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li><!--end Home-->
-              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Person <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#person">The Person</a></li>
-                  <li><a href="story.html">Her Origin Story</a></li>
-                </ul>
+              <li><a href="#person">About</a>
               </li><!--end person-->
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Developer <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#projects">Commissions &amp; Personal Work</a></li>
+                  <li><a href="#JSWork">JavaScript &amp; jQuery Projects</a></li>
                 </ul>
               </li><!--end Developer-->
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Learner <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Exercises</a></li>
                   <li><a href="#">Resources</a></li>
                 </ul>
-              </li><!--end Learner-->
-              <li><a href="#resume">The Resume</a></li>
+              </li>-->
+              <li><a href="#resume">Resume</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul><!--end navbar-right-->
           </div><!-- /.navbar-collapse -->
@@ -66,161 +62,136 @@
             <p>"I am always doing that which I cannot do, in order that I may learn how to do it."<br><span class="author">~Pablo Picasso</span></p>
           </div><!--end jumbotron-->
         </div><!--end jumbo-wrap-->
-      </div><!--end container-fluid-->      
+      </div><!--end container-fluid-->
     </div><!--end intro-pic cover-->
     <div id="person" class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 story">
           <h1>Krista Prenesti: A Developing Developer</h1>
-          <img class="kristapic" src="images/KristaDrawn.jpg" alt="Krista Prenesti is a web developer in training">
-          <p>I am a former teacher with a passion for solving intricate problems.  I like to find the root cause of issues and find efficient, effective solutions to not only solve current problems but also to prevent new ones from occurring.  As a life-long consumer of the internet, and as a person seeking a new path, my two loves -- problem-solving and the internet -- converged into a need to understand and utilize web technology to bring compelling images and messages to the masses.  <a href="story.html">Read how it all started.</a></p>
-          <p>At the moment, I am working my way through <a href="">Free Code Camp</a>, which focuses on teaching the MEAN stack.  Scroll down to see the <a href="#skillsRow">skills</a> I have acquired so far.</p>
+          <img class="kristapic" src="images/KristaFace.jpg" alt="Krista Prenesti is a web developer in training">
+          <p>I am a former teacher who is teaching herself to code. Currently, I am specializing in the MEAN stack as I work my way through<a href="http://www.freecodecamp.com" target="_blank"> FreeCodeCamp's</a> tutorials and projects. By the end of the program (which I hope to finish mid-2016) I will be skilled in HTML, CSS, JavaScript, AJAX, Node / Express, Data Visualization (D3), React.js, Angular.js, Bootstrap, SASS, and MongoDB.  I have also taken it upon myself to learn WordPress and will be learning Python and/or Java in 2016.</p>
+          <p><span style="font-weight:bold;">Current Skills:</span> HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, WordPress, Linux</p>
         </div><!--end column-->
       </div><!--end row-->
     </div><!--end container-fluid-->
-    <div id="theDeveloper" class="container-fluid">
-      <div id="skillsRow" class="row padTB40">
-        <div class="col-xs-12">
-          <h1 class="centered">Skills At A Glance</h2>
-          <div class="skills-wrapper">
-            <div class="col-xs-12 col-sm-6 col-md-4 skill">
-            <div class="skill-cont">
-            <h3>HTML</h3>
-              <div class="counter floatL">
-                <div class="bead floatL filled"></div>
-                <div class="bead floatL filled"></div>
-                <div class="bead floatL filled"></div>
-                <div class="bead floatL filled"></div>
-                <div class="bead floatL filled"></div>
-              </div><!--end counter-->
-            </div><!--end skill-cont-->
-          </div><!--end nested column-->
-            <div class="col-xs-12 col-sm-6 col-md-4 skill">
-            <h3>CSS</h3><div class="counter floatL"><div class="bead floatL filled"></div><div class="bead filled filled floatL"></div><div class="bead floatL filled"></div><div class="bead floatL filled"></div><div class="bead floatL empty"></div></div><!--end counter-->
-          </div><!--end nested column-->
-            <div class="col-xs-12 col-sm-6 col-md-4 skill">
-              <div class="skill-cont">
-            <h3>jQuery</h3><div class="counter floatL"><div class="bead floatL filled"></div><div class="bead floatL filled"></div><div class="bead floatL filled"></div><div class="bead floatL empty"></div><div class="bead floatL empty"></div></div><!--end counter-->
-              </div>
-          </div><!--end nested column-->
-            <div class="col-xs-12 col-sm-6 col-md-4 skill">
-              <div class="skill-cont">
-                <h3>JavaScript</h3><div class="counter floatL filled"><div class="bead floatL filled"></div><div class="bead floatL filled"></div><div class="bead floatL empty"></div><div class="bead floatL empty"></div><div class="bead floatL empty"></div></div><!--end counter-->
-              </div><!--end skill-cont-->
-          </div><!--end nested column-->
-            <div class="col-xs-12 col-sm-6 col-md-4 skill">
-              <div class="skill-cont">
-                <h3>PHP</h3>
-                <div class="counter floatL">
-                  <div class="bead floatL filled"></div>
-                  <div class="bead floatL filled"></div>
-                  <div class="bead floatL filled"></div>
-                  <div class="bead floatL empty"></div>
-                  <div class="bead floatL empty"></div>
-                </div><!--end counter-->
-            </div>
-          </div><!--end nested column-->
-            <div class="col-xs-12 col-sm-6 col-md-4 skill">
-              <div class="skill-cont">
-                <h3>WordPress</h3>
-                <div class="counter floatL">
-                  <div class="bead floatL filled"></div>
-                  <div class="bead floatL filled"></div>
-                  <div class="bead floatL filled"></div>
-                  <div class="bead floatL filled"></div>
-                  <div class="bead floatL empty"></div>
-                </div><!--end counter-->
-              </div><!--end skill-cont-->
-          </div><!--end nested column-->
-          </div><!--end skills-wrapper-->
-        </div><!--end containing column-->
-      </div>
+    <div class="fullBG">
+      <div id="theDeveloper" class="container">
       <div id="projects" class="row padTB40">
         <div class="col-xs-12">
-          <h1 class="centered">Portfolio: Websites</h1>
+          <h1 class="centered">Portfolio</h1>
+          <h2 class="title">Commissioned &amp; Personal Projects</h2>
+          <p>The projects displayed in this section were either personal projects or comissioned by various customers, some paying, some not.  They feature a variety of skills and tools. <span class="TMI">To see details, hover over the project's image.</span></p>
         </div>
-        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 col-xl-6">
-            <figure>
-              <a href="http://www.dobsonsonaboat.com"><img class="screenshot" alt="DobsonsOnABoat.com" src="images/wedSite.PNG"></a>
-                <figcaption>
-                  <a href="http://www.dobsonsonaboat.com"><h3>DobsonsOnABoat.com</h3></a>
-                  <div class="portSkillCont">
-                    <div class="floatL skills">
-                      <h4>Skills Used:</h4>
-                      <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Bootstrap 3</li>
-                        <li>jQuery</li>
-                      </ul>
-                    </div>
-                    <div class="floatL skills">
-                    <h4>Tools Used:</h4>
-                    <ul>
-                      <li>Brackets</li>
-                      <li>Sass (SCSS)</li>
-                      <li class="link"><a href="https://github.com/kprenesti/weddingSite" target="_blank">GitHub</a></li>
-                    </ul>
-                  </div>
-                  </div>
-                </figcaption>
-              </figure>
-        <p><a href="">Read more <i class='fa fa-chevron-right'></i></a></p>
-      
-          </div><!--end column-->
-        <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 col-xl-6">
-            <figure>
-              <a href="http://www.alphajtravel.com"><img class="screenshot" alt="AlphaJTravel.com" src="images/alphajtravel.png"></a>
-                <figcaption>
-                  <a href="http://www.alphajtravel.com"><h3>AlphaJTravel.com</h3></a>
-                  <div class="portSkillCont">
-                    <div class="floatL skills">
-                      <h4>Skills Used:</h4>
-                      <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>jQuery</li>
-                        <li>PHP</li>
-                      </ul>
-                    </div>
-                    <div class="floatL skills">
-                    <h4>Tools Used:</h4>
-                    <ul>
-                      <li>Brackets</li>
-                      <li>Sass (SCSS)</li>
-                      <li>WordPress</li>
-                      <li class="link"><a href="https://github.com/kprenesti/weddingSite" target="_blank">GitHub</a></li>
-                    </ul>
-                  </div>
-                  </div>
-                </figcaption>
-              </figure>
-      
-          </div><!--end column-->
-        </div><!--end row -->
+        <div class="col-sm-6 col-xs-6 col-md-4 col-lg-4 col-xl-4">
+          <figure>
+            <a href="http://www.dobsonsonaboat.com"><img class="screenshot" alt="DobsonsOnABoat.com" src="images/wedSite.PNG"></a>
+            <figcaption>
+              <a href="http://www.dobsonsonaboat.com"><h3>DobsonsOnABoat.com</h3></a>
+              <div class="portSkillCont">
+                <div class="floatL skills">
+                  <h4>Skills Used:</h4>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap 3</li>
+                    <li>jQuery</li>
+                  </ul>
+                </div><!--end skills-->
+                <div class="floatL skills">
+                  <h4>Tools Used:</h4>
+                  <ul>
+                    <li>Brackets</li>
+                    <li>Sass (SCSS)</li>
+                    <li class="link"><a href="https://github.com/kprenesti/weddingSite" target="_blank">GitHub</a></li>
+                  </ul>
+                </div><!--end skills-->
+              </div><!--end portSkillCont-->
+            </figcaption>
+          </figure>
+        </div><!--end column-->
+        <div class="col-sm-6 col-xs-6 col-md-4 col-lg-4 col-xl-4">
+          <figure>
+            <a href="http://www.alphajtravel.com"><img class="screenshot" alt="AlphaJTravel.com" src="images/alphajtravel.png"></a>
+            <figcaption>
+              <a href="http://www.alphajtravel.com"><h3>AlphaJTravel.com</h3></a>
+              <div class="portSkillCont">
+                <div class="floatL skills">
+                  <h4>Skills Used:</h4>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>jQuery</li>
+                    <li>PHP</li>
+                  </ul>
+                </div>
+                <div class="floatL skills">
+                  <h4>Tools Used:</h4>
+                  <ul>
+                    <li>Brackets</li>
+                    <li>Sass (SCSS)</li>
+                    <li>WordPress</li>
+                    <li class="link"><a href="https://github.com/kprenesti/weddingSite" target="_blank">GitHub</a></li>
+                  </ul>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div><!--end column-->
+      </div><!--end row -->
+      <hr />
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="title">JavaScript &amp; jQuery Work</h2>
+          <p>All projects in this section were created using either vanilla JavaScript or jQuery and feature a spectrum of skill levels.</p>
+        </div><!--end column-->
+      </div><!--end row-->
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <a href="http://codepen.io/kprenesti/full/qbBXvz/" target="_blank"><h3>Inspiration Generator</h3></a>
+          <a href="http://codepen.io/kprenesti/full/qbBXvz/" target="_blank"><img src="images/InspGenerator.png" class="screenshot img img-responsive"></a>
+        </div><!--end column-->
+
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <a href="http://codepen.io/kprenesti/full/ZQBPLO/" target="_blank"><h3>JavaScript Calculator</h3></a>
+          <a href="http://codepen.io/kprenesti/full/ZQBPLO/" target="_blank"><img src="images/jsCalculator.png" class="screenshot img img-responsive"></a>
+        </div><!--end column-->
+
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <a href="http://codepen.io/kprenesti/full/PZPKmX/" target="_blank"><h3>Pomodoro Timer</h3></a>
+          <a href="http://kprenesti.github.io/FCC-PomodoroTimer/"><img src="images/pomTimer.png" alt="FCC Pomodoro Timer" class="screenshot img img-responsive"></a>
+        </div><!--end column-->
+      </div><!--end row-->
     </div><!--end developer-->
-    <div id="contact" class="container">
+    </div>
+    <div id="contact">
+      <div class="container">
       <h1 centered>Contact Me</h1>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <a class="email-main socButton" href="mailto:krista.prenesti@gmail.com"><span class="expanded">Krista.Prenesti@gmail.com <i class="fa fa-envelope"></i></span><span class="mobile-text">E-mail Me <i class="fa fa-envelope"></i></span></a>
+          <a class="email-main socButton" href="mailto:krista.prenesti@gmail.com"><span class="expanded"><span class="TMI">Krista.Prenesti@gmail.com </span><i class="fa fa-envelope"></i></span><span class="mobile-text">E-mail Me <i class="fa fa-envelope"></i></span></a>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3- col-xl-3 buttons1">
-          <a href="http://freecodecamp.com/kprenesti" target="_blank"><div class="fcc socButton"><img src="images/freeCodeCamp-transparent-1200.png" alt="Free Code Camp logo"></div></a>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3- col-xl-3 buttons1">
+          <a href="http://freecodecamp.com/kprenesti" target="_blank">
+            <div class="fcc socButton">
+              <img id="fullFCCLogo" src="images/freeCodeCamp-transparent-1200.png" alt="Free Code Camp logo" />
+              <img id="miniFCCLogo" src="" alt="FCC" />
+            </div>
+          </a>
         </div><!--end FCC-->
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3- col-xl-3 buttons1">
-          <a  class="socButton github" href="https://github.com/kprenesti" target="_blank">GitHub <i class="fa fa-github-square"></i></a>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3- col-xl-3 buttons1">
+          <a  class="socButton github" href="https://github.com/kprenesti" target="_blank"><span class="TMI">GitHub </span><i class="fa fa-github-square"></i></a>
         </div><!--end Github-->
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3- col-xl-3 buttons1">
-          <a  class="socButton linkedIn" href="https://www.linkedin.com/in/kristaprenesti" target="_blank">LinkedIn <i class="fa fa-linkedin-square"></i></a>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3- col-xl-3 buttons1">
+          <a  class="socButton linkedIn" href="https://www.linkedin.com/in/kristaprenesti" target="_blank"><span class="TMI">LinkedIn </span><i class="fa fa-linkedin-square"></i></a>
         </div><!--end LinkedIn-->
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3- col-xl-3 buttons1">
-          <a  class="socButton twitter" href="https://twitter.com/KPrenesti" target="_blank">Twitter <i class="fa fa-twitter-square"></i></a>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3- col-xl-3 buttons1">
+          <a  class="socButton twitter" href="https://twitter.com/KPrenesti" target="_blank"><span class="TMI">Twitter </span><i class="fa fa-twitter-square"></i></a>
         </div><!--end LinkedIn-->
-      </div>
-    </div>
+      </div><!--end row-->
+    </div><!--end container-->
+  </div><!--end contact-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -13,7 +13,7 @@
 }
 
 .intro-pic {
-  background-image: url('../../images/compwireframe.jpg');
+  background-image: url('../images/compwireframe.jpg');
   background-position: center center;
 }
 
@@ -21,18 +21,8 @@
   padding: 0;
 }
 
-h2.keepReading {
-  position: relative;
-  bottom: -50px;
-  color: white;
-  font-size: 2em;
-  i {
-    font-size: 2.1em;
-  }
-}
+
 
 @media (max-width: $tabs) {
-  h2.keepReading {
-    display: none;
-  }
+
 }

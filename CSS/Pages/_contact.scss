@@ -1,17 +1,14 @@
-.email-main {
+#contact{
+  background-color: $whitegrey;
+  padding-bottom: 40px;
+}
+
+a.email-main {
+  display: block;
   text-align: center;
-  color: white;
-  margin: 10px auto;
-  background-color: $turq;
-  font-size: 200%;
-  background-color: $turq;
-  color: white;
-  width: 100%;
-  &:hover {
-    background-color: $whitegrey;
-    color: $turq;
-    font-weight: bold;
-  }
+  font-size: 1.7em;
+  line-height: 1.19;
+  margin-bottom: 10px;
 }
 
 .mobile-text {
@@ -29,7 +26,7 @@
   height: 50px;
   border-radius: 5px;
   line-height: 50px;
-  font-size: 200%;
+  font-size: 1.3em;
   color: white;
   background-color: $LIBlue;
   &:hover {
@@ -62,6 +59,9 @@
     width: 100%;
     max-height: 100%;
   }
+  #miniFCCLogo {
+    display: none;
+  }
 }
 
 
@@ -84,6 +84,13 @@
   .expanded {
     display: none;
   }
-} //end media query tabs
-
-
+  .TMI {
+    display: none;
+  }
+  #fullFCCLogo {
+    display: none;
+  }
+  #miniFCCLogo {
+    display: block;
+  }
+}

@@ -83,6 +83,11 @@ img-responsive {
     content: '';
     clear: both; }
 
+.fullBG {
+  width: 100vw;
+  padding: 0;
+  margin: 0; }
+
 .navbar.navbar-default.navbar-static-top {
   background-color: #3D3D3D; }
   .navbar.navbar-default.navbar-static-top a {
@@ -135,39 +140,26 @@ img-responsive {
   padding: 0; }
 
 .intro-pic {
-  background-image: url("../../images/compwireframe.jpg");
+  background-image: url("../images/compwireframe.jpg");
   background-position: center center; }
 
 .intro-pic.container-fluid {
   padding: 0; }
 
-h2.keepReading {
-  position: relative;
-  bottom: -50px;
-  color: white;
-  font-size: 2em; }
-  h2.keepReading i {
-    font-size: 2.1em; }
-
-@media (max-width: 775px) {
-  h2.keepReading {
-    display: none; } }
 /*================================
           INTRODUCTION
 =================================*/
 #person {
-  height: 100vh;
   background-color: #EEEEEE;
   margin: 0;
-  padding: 0; }
+  padding: 0 0 30px 0; }
   #person h1 {
     text-align: center;
     padding-bottom: 40px;
     margin: 0;
-    color: #007BB6;
-    font-weight: bold; }
+    color: #007BB6; }
   #person p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-right: 20px; }
 
 #story h1 {
@@ -180,7 +172,7 @@ h2.keepReading {
   margin: 3% 12.5%; }
 
 .kristapic {
-  max-width: 30vw;
+  max-width: 25vw;
   height: auto;
   float: left;
   padding: 0 20px 0 40px; }
@@ -235,7 +227,8 @@ h2.keepReading {
       font-family: "Rock Salt", cursive;
       color: #3D3D3D; }
     .jumbo-wrap .jumbotron p {
-      font-family: "Open Sans", sans-serif; }
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.2em; }
 
 @media screen and (max-width: 768px) {
   .jumbotron > h1 {
@@ -253,19 +246,16 @@ h2.keepReading {
 
   .jumbotron > h1 {
     font-size: 1.8em; } }
-.email-main {
+#contact {
+  background-color: #EEEEEE;
+  padding-bottom: 40px; }
+
+a.email-main {
+  display: block;
   text-align: center;
-  color: white;
-  margin: 10px auto;
-  background-color: #6BC5F0;
-  font-size: 200%;
-  background-color: #6BC5F0;
-  color: white;
-  width: 100%; }
-  .email-main:hover {
-    background-color: #EEEEEE;
-    color: #6BC5F0;
-    font-weight: bold; }
+  font-size: 1.7em;
+  line-height: 1.19;
+  margin-bottom: 10px; }
 
 .mobile-text {
   display: none; }
@@ -280,7 +270,7 @@ h2.keepReading {
   height: 50px;
   border-radius: 5px;
   line-height: 50px;
-  font-size: 200%;
+  font-size: 1.3em;
   color: white;
   background-color: #007BB6; }
   .socButton:hover {
@@ -307,6 +297,8 @@ h2.keepReading {
   .fcc img {
     width: 100%;
     max-height: 100%; }
+  .fcc #miniFCCLogo {
+    display: none; }
 
 @media (max-width: 775px) {
   #contact {
@@ -324,46 +316,32 @@ h2.keepReading {
     display: inherit; }
 
   .expanded {
-    display: none; } }
-/*=====================
-  SKILLS AT A GLANCE
-======================*/
-#skillsRow {
-  width: 80%;
-  margin: 0 auto; }
+    display: none; }
 
-.skills-wrapper {
-  width: 80%;
-  margin: 0 auto;
-  padding-left: 60px;
-  overflow: hidden; }
+  .TMI {
+    display: none; }
 
-.skill .counter .bead {
-  width: 1.5em;
-  height: 1.5em;
-  border: 1px solid #3D3D3D;
-  border-radius: 50%;
-  margin: 2.5px; }
+  #fullFCCLogo {
+    display: none; }
 
-.bead.filled {
-  background-color: #6BC5F0; }
+  #miniFCCLogo {
+    display: block; } }
+/*==============================
+      THE DEVELOPER: PROJECTS
+================================*/
+#theDeveloper {
+  padding-bottom: 40px; }
 
-.bead.empty {
-  background-color: #EEEEEE; }
-
-/*=======================
-      PROJECTS
-========================*/
 #projects {
-  background-color: #EEEEEE; }
+  background-color: white; }
   #projects h1 {
     padding-bottom: 40px; }
 
 figure {
-  max-width: 100%; }
+  width: 100%; }
   figure img {
     height: 300px;
-    max-width: 100%;
+    width: 100%;
     border: 4px solid #3D3D3D; }
   figure:hover figcaption {
     display: block;
@@ -390,22 +368,23 @@ figure {
       padding-top: 20px; }
     figure figcaption h4 {
       text-shadow: 2px 2px 3px #3D3D3D;
-      font-size: 1.7em;
-      text-decoration: underline; }
+      font-size: 1em;
+      text-decoration: underline;
+      font-weight: bold; }
   figure .portSkillCont {
     margin: 0 auto;
     padding-left: 20px;
     overflow: hidden;
-    max-width: 100%; }
+    width: 100%; }
   figure .skills {
-    max-width: 50%;
-    padding: 10px 30px; }
+    padding: 0 .75em; }
     figure .skills ul {
       list-style-type: disc;
       list-style-position: inside; }
       figure .skills ul li {
         text-shadow: 1px 1px 1px #3D3D3D;
-        font-size: 1.7em; }
+        font-size: .9em;
+        font-weight: bold; }
         figure .skills ul li:hover {
           text-decoration: none; }
 
@@ -449,25 +428,20 @@ figure {
 ==================================*/
 @media (max-width: 1022px) {
   .portSkillCont {
-    max-width: 100%; } }
-@media (max-width: 775px) {
-  .counter {
-    float: none;
-    text-align: center;
-    margin: 0 auto; }
-    .counter .bead {
-      width: 1.5em;
-      height: 1.5em;
-      border: 1px solid #3D3D3D;
-      border-radius: 50%;
-      margin: 2.5px; }
-
-  .skill-cont h3 {
-    margin-top: 10px;
-    font-size: 1em; }
-
-  figcaption {
-    display: block;
-    bottom: 0; } }
+    width: 100%; } }
+@media (max-width: 875px) {
+  figure {
+    margin-bottom: 20px; }
+    figure:hover {
+      margin-bottom: 320px; }
+    figure figcaption {
+      display: block;
+      bottom: 0;
+      border: 4px solid #3D3D3D;
+      border-top: 0;
+      overflow-y: scroll;
+      overflow-x: hidden; }
+    figure .skills > ul {
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
