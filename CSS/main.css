@@ -146,6 +146,25 @@ img-responsive {
 .intro-pic.container-fluid {
   padding: 0; }
 
+.flexbox {
+  display: flex;
+  width: 60%;
+  margin: 40px auto;
+  justify-content: space-around;
+  height: 2.5em; }
+  .flexbox a {
+    display: block;
+    height: 100%;
+    padding-bottom: 5px; }
+    .flexbox a:hover {
+      text-decoration: none; }
+    .flexbox a i {
+      display: block;
+      font-size: 2.5em;
+      color: white; }
+    .flexbox a img {
+      height: 100%; }
+
 /*================================
           INTRODUCTION
 =================================*/
@@ -291,14 +310,9 @@ a.email-main {
     color: #EEEEEE;
     text-decoration: none; }
 
-.fcc {
-  background-image: url("../../images/freeCodeCamp-transparent-1200.png") center center no-repeat;
-  background-size: contain; }
-  .fcc img {
-    width: 100%;
-    max-height: 100%; }
-  .fcc #miniFCCLogo {
-    display: none; }
+.fccLogo {
+  height: 1em;
+  fill: white; }
 
 @media (max-width: 775px) {
   #contact {

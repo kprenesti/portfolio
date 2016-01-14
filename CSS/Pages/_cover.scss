@@ -21,8 +21,32 @@
   padding: 0;
 }
 
+.flexbox {
+  display: flex;
+  width: 60%;
+  margin: 40px auto;
+  justify-content: space-around;
+  height: 2.5em;
+  a {
+    display: block;
+    height: 100%;
+    padding-bottom: 5px;
+    &:hover {
+      text-decoration: none;
+    }
 
+    i {
+      display: block;
+      font-size: 2.5em;
+      color: white;
+    }
+    img {
+      height: 100%;
+      // padding: 5px;
 
+    }
+  }
+}
 @media (max-width: $tabs) {
 
 }

@@ -15,7 +15,7 @@
 
   </head>
   <body>
-    <div class="intro-pic cover">
+    <section class="intro-pic cover">
       <nav class="navbar navbar-default navbar-static-top">
         <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,17 +59,28 @@
           <div class="jumbotron">
             <h1>Krista Prenesti</h1>
             <hr>
-            <p>"I am always doing that which I cannot do, in order that I may learn how to do it."<br><span class="author">~Pablo Picasso</span></p>
+            <p>"I am always doing that which I cannot do,
+              <br>in order that I may learn how to do it."
+              <br><span class="author">~Pablo Picasso</span></p>
           </div><!--end jumbotron-->
         </div><!--end jumbo-wrap-->
+
+<!-- ======Start SocialIcon Flexbox=========== -->
+
+        <div class="flexbox">
+          <a href="https://github.com/kprenesti" target="_blank" class="SocIconLogos"><i class="fa fa-github-square"></i></a><!--Github-->
+          <a href="http://freecodecamp.com/kprenesti" target="_blank" class="SocIconLogos"><img class="img img-responsive" src="images/fccLogo.gif" alt="fccLogo"></a><!--freeCodeCamp-->
+          <a href="https://www.linkedin.com/in/kristaprenesti" target="_blank" class="SocIconLogos"><i class="fa fa-linkedin-square"></i></a><!--LinkedIn-->
+          <a href="https://twitter.com/KPrenesti" target="_blank" class="SocIconLogos"><i class="fa fa-twitter-square"></i></a>
+        </div><!--end flexbox-->
       </div><!--end container-fluid-->
-    </div><!--end intro-pic cover-->
+    </section><!--end intro-pic cover-->
     <div id="person" class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 story">
           <h1>Krista Prenesti: A Developing Developer</h1>
           <img class="kristapic" src="images/KristaFace.jpg" alt="Krista Prenesti is a web developer in training">
-          <p>I am a former teacher who is teaching herself to code. Currently, I am specializing in the MEAN stack as I work my way through<a href="http://www.freecodecamp.com" target="_blank"> FreeCodeCamp's</a> tutorials and projects. By the end of the program (which I hope to finish mid-2016) I will be skilled in HTML, CSS, JavaScript, AJAX, Node / Express, Data Visualization (D3), React.js, Angular.js, Bootstrap, SASS, and MongoDB.  I have also taken it upon myself to learn WordPress and will be learning Python and/or Java in 2016.</p>
+          <p>Hey there! I'm Krista.  I am a former teacher and life-long student: I love to learn and use what I've learned.  Currently, I am working through <a target="_blank" href="http://www.freecodecamp.com">FreeCodeCamp</a> to learn full-stack JavaScript, which includes HTML, CSS, JavaScript, React, D3, Node / Express, and MongoDB. I am also learning the basics of Python and PHP via various online sources.
           <p><span style="font-weight:bold;">Current Skills:</span> HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, WordPress, Linux</p>
         </div><!--end column-->
       </div><!--end row-->
@@ -163,7 +174,7 @@
       </div><!--end row-->
     </div><!--end developer-->
     </div>
-    <div id="contact">
+    <section id="contact">
       <div class="container">
       <h1 centered>Contact Me</h1>
       <div class="row">
@@ -173,11 +184,8 @@
       </div>
       <div class="row">
         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3- col-xl-3 buttons1">
-          <a href="http://freecodecamp.com/kprenesti" target="_blank">
-            <div class="fcc socButton">
-              <img id="fullFCCLogo" src="images/freeCodeCamp-transparent-1200.png" alt="Free Code Camp logo" />
-              <img id="miniFCCLogo" src="" alt="FCC" />
-            </div>
+          <a href="http://freecodecamp.com/kprenesti" target="_blank" class="socButton FCC">
+              <span class="TMI">FreeCodeCamp</span> <img class="fccLogo" src="images/fccLogo.gif" alt="FCC Logo">
           </a>
         </div><!--end FCC-->
         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3- col-xl-3 buttons1">
@@ -191,7 +199,7 @@
         </div><!--end LinkedIn-->
       </div><!--end row-->
     </div><!--end container-->
-  </div><!--end contact-->
+  </section><!--end contact-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
