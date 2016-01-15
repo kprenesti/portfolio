@@ -131,9 +131,9 @@ figure {
 }
 @media (max-width: 875px) {
  figure {
-   margin-bottom: 20px;
+   margin-bottom: 30px;
    &:hover {
-     margin-bottom: 320px;
+     margin-bottom: 330px;
    }
 
    figcaption {
@@ -143,11 +143,17 @@ figure {
      border-top: 0;
      overflow-y: scroll;
      overflow-x: hidden;
+     h3 {
+       margin-top: 5px;
+       padding-top: 10px;
+     }
    }
-.skills > ul {
+.skills {
   width: 100%;
+> ul {
+  width: 100% !important;
 }
-
+}
  }
 
 } //end media query for developer section

@@ -15,16 +15,22 @@ a.email-main {
   display: none;
 }
 
-.buttons1 {
-  margin: 0 auto;
-  text-align: center;
-}
 
+.contactFlexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  a:nth-child(4){
+    margin-right: 0;
+  }
+}
 .socButton {
   display: block;
   width: 100%;
+  margin: 0 10px;
   height: 50px;
   border-radius: 5px;
+  text-align: center;
   line-height: 50px;
   font-size: 1.3em;
   color: white;
@@ -54,8 +60,6 @@ a.email-main {
 
 .fccLogo {
   height: 1em;
-  // width: 1em;
-  fill: white;
 }
 
 
@@ -64,13 +68,24 @@ a.email-main {
   #contact {
     padding: 40px;
   }
+  .contactFlexbox{
+    background-color: $LIBlue;
+    border-radius: 5px;
+    justify-content: space-around;
+  }
   .socButton {
-    margin: 2px 0;
+    margin: 5px;
+    // border-right: 1px solid $darkgrey;
+    border-radius: 0;
+    &:nth-child(4){
+      border-right: 0;
+    }
   }
   .email-main {
     display: block;
     padding: 5px 0;
     margin: 0 0 3px 0;
+    border-radius: 5px;
   }
   .mobile-text {
     display: inherit;

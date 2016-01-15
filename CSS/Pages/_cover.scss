@@ -6,7 +6,7 @@
 
 .cover {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@
 
 .flexbox {
   display: flex;
-  width: 60%;
+  width: 25%;
   margin: 40px auto;
   justify-content: space-around;
   height: 2.5em;
@@ -31,6 +31,7 @@
     display: block;
     height: 100%;
     padding-bottom: 5px;
+    filter: drop-shadow(16px 16px 20px $darkgrey);
     &:hover {
       text-decoration: none;
     }
@@ -48,5 +49,7 @@
   }
 }
 @media (max-width: $tabs) {
-
+  .flexbox {
+    width: 90%;
+  }
 }
