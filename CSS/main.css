@@ -183,22 +183,22 @@ img-responsive {
     color: #007BB6; }
   #person p {
     font-size: 1.2em;
-    padding-right: 20px; }
+    padding: 0 20px;
+    line-height: 1.8; }
+  #person .img.img-responsive {
+    padding-top: .9em; }
 
 .story h1 {
   color: #007BB6;
   padding-top: 40px; }
 
-.kristapic {
-  max-width: 25vw;
-  height: auto;
-  float: left;
-  padding: 0 20px 0 40px; }
-
 .curSkills {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: .4em; }
 
 .skillList {
+  font-size: 1.2em;
   margin: 0 auto;
   list-style-type: disc;
   list-style-position: inside; }
@@ -365,6 +365,13 @@ a.email-main {
   background-color: white; }
   #projects h1 {
     padding-bottom: 40px; }
+  #projects p {
+    font-size: 1.2em;
+    margin-bottom: 3em; }
+
+#javascript p {
+  font-size: 1.2em;
+  margin-bottom: 2em; }
 
 figure {
   width: 100%; }
