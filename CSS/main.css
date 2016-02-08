@@ -245,6 +245,7 @@ img-responsive {
     height: auto;
     text-align: center; }
     .jumbo-wrap .jumbotron h1 {
+      font-size: 3em;
       font-family: "Rock Salt", cursive;
       color: #3D3D3D; }
     .jumbo-wrap .jumbotron p {
